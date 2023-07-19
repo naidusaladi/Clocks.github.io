@@ -27,6 +27,7 @@ body{
   height: 50px;
   border-radius: 10%;
   transition: background-color .5s ease-in;
+  cursor: pointer;
 }
 @media (max-width:768px) {
   .buttons{
@@ -184,11 +185,13 @@ body{
 }
 @media (max-width:768px) {
   .stopwatch{
-    width: 90%;
+    width: 200px;
     margin-left: 0px;
   }
   .stp_buttons{
-    margin-left: 5px;
+    width: 200px;
+    margin-left: 0px;
+    
   }
 }
 .stp_btn{
@@ -203,11 +206,7 @@ body{
   cursor:pointer;
 
 }
-@media (max-width:768px) {
-  .stp_buttons{
-    width: 90%;
-  }
-}
+
 
 .totalstopwatch{
   display: none;
