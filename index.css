@@ -186,7 +186,7 @@ body{
 @media (max-width:768px) {
   .stopwatch{
     width: 200px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .stp_buttons{
     width: 200px;
